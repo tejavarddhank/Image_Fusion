@@ -77,3 +77,21 @@ a {
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
 }
+
+.form {
+    padding: 20px;
+    display: flex; /* Add this line */
+    justify-content: space-between; /* Adjust spacing between elements */
+}
+
+/* Remove padding-left from .container-form and .container-form1 */
+.container-form,
+.container-form1 {
+    margin-right: 20px; /* Adjust margin to create space between elements */
+    color:#005F79;
+}
+
+.form1{
+    padding: 20px;
+    text-align: center;
+}
