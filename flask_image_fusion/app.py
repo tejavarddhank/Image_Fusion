@@ -2,9 +2,12 @@ from flask import Flask, render_template, request, redirect, url_for, send_file
 import os
 import cv2
 
+
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
+
 
 # Ensure the UPLOAD_FOLDER exists
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
